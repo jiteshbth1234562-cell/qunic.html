@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+header{
+    background:#003366;
+    color:white;
+    padding:15px 20px;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.logo{
+    font-size:20px;
+    font-weight:bold;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    margin:10px;
+    font-size:10px;
+}
+
+.menu a:hover{
+    color:yellow;
+}
+
+/* Mobile Responsive */
+@media(max-width:700px){
+
+.header{
+    flex-direction:column;
+    text-align:center;
+}
+
+.menu{
+    margin-top:10px;
+}
+
+.menu a{
+    display:block;
+    margin:8px 0;
+}
+
+}
+</style>
+</head>
+
+<body>
+    <h2 style="color: #0066cc;text-align:center;" width="60" height="100">Dubey cybar cafe</h2>
+
+<header>
+<div class="header">
+
+<div class="logo">
+🚔 BIHAR POLICE JOB
+</div>
+
+<div class="menu">
+<a href="#">Home</a>
+<a href="#">Latest Jobs</a>
+<a href="#">Admit Card</a>
+<a href="#">Results</a>
+<a href="#">Answer Key</a>
+<a href="#">Contact</a>
+</div>
+
+</div>
+</header>
+<!-- First Marquee -->
+<marquee behavior="scroll" direction="left" scrollamount="6"
+style="background:red;color:white;padding:10px;font-size:18px;">
+🔥 Latest Jobs : SSC CGL | Railway NTPC | Bihar Police | Army Agniveer
+</marquee>
+
+<!-- Second Marquee -->
+<marquee behavior="scroll" direction="right" scrollamount="5"
+style="background:blue;color:white;padding:10px;font-size:18px;">
+📢 Admit Card | Results | Answer Key | Syllabus | Scholarship | Admission
+</marquee>
+<style>
+.image-gallery{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.image-gallery img{
+    width:25%;
+    height:200px;
+    object-fit:cover;
+    border:2px solid black;
+    box-sizing:border-box;
+}
+</style>
+
+<div class="image-gallery">
+
+</div>
+<style>
+.box-container{
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+}
+
+.box{
+    width:25%;
+    border:2px solid #000;
+    box-sizing:border-box;
+}
+
+.box h3{
+    margin:0;
+    padding:10px;
+    color:white;
+    text-align:center;
+}
+
+.box ul{
+    margin:0;
+    padding:15px;
+}
+
+.box li{
+    margin:8px 0;
+}
+
+.box a{
+    text-decoration:none;
+    color:blue;
+}
+
+.box a:hover{
+    color:red;
+}
+</style>
+
+<div class="box-container">
+
+<div class="box">
+<h3 style="background:#008000;">Latest Jobs</h3>
+<ul>
+<li><a href="https://ssc.gov.in/for-candidates/examination-calendar">SSC CGL 2026</a></li>
+<li><a href="#">Railway NTPC</a></li>
+<li><a href="#">Bihar Police</a></li>
+<li><a href="#">Army Agniveer</a></li>
+</ul>
+</div>
+
+<div class="box">
+<h3 style="background:#0066cc;">Admit Card</h3>
+<ul>
+<li><a href="#">SSC Admit Card</a></li>
+<li><a href="#">Railway Admit Card</a></li>
+<li><a href="#">Bihar Police Admit Card</a></li>
+<li><a href="#">UP Police Admit Card</a></li>
+</ul>
+</div>
+
+<div class="box">
+<h3 style="background:#cc0000;">Results</h3>
+<ul>
+<li><a href="#">SSC Result</a></li>
+<li><a href="#">Railway Result</a></li>
+<li><a href="#">UPSC Result</a></li>
+<li><a href="#">Bank Result</a></li>
+</ul>
+</div>
+
+<div class="box">
+<h3 style="background:#ff6600;">Answer Key</h3>
+<ul>
+<li><a href="#">SSC Answer Key</a></li>
+<li><a href="#">Railway Answer Key</a></li>
+<li><a href="#">Bihar Police Key</a></li>
+<li><a href="#">CTET Answer Key</a></li>
+</ul>
+</div>
+
+<div class="box">
+<h3 style="background:#990099;">Syllabus</h3>
+<ul>
+<li><a href="#">SSC Syllabus</a></li>
+<li><a href="#">UPSC Syllabus</a></li>
+<li><a href="#">Railway Syllabus</a></li>
+<li><a href="#">Bihar Police Syllabus</a></li>
+</ul>
+</div>
+
+<div class="box">
+<h3 style="background:#663300;">Admission</h3>
+<ul>
+<li><a href="#">ITI Admission</a></li>
+<li><a href="#">B.Ed Admission</a></li>
+<li><a href="#">Polytechnic</a></li>
+<li><a href="#">University</a></li>
+</ul>
+</div>
+
+<div class="box">
+<h3 style="background:#009999;">Scholarship</h3>
+<ul>
+<li><a href="#">NSP Scholarship</a></li>
+<li><a href="#">Bihar Scholarship</a></li>
+<li><a href="#">UP Scholarship</a></li>
+<li><a href="#">PM Scholarship</a></li>
+</ul>
+</div>
+
+<div class="box">
+<h3 style="background:#444;">Important</h3>
+<ul>
+<li><a href="#">Online Form</a></li>
+<li><a href="#">Offline Form</a></li>
+<li><a href="#">New Vacancy</a></li>
+<li><a href="#">Notice</a></li>
+</ul>
+</div>
+
+<div class="box">
+<h3 style="background:#003366;">Certificate</h3>
+<ul>
+<li><a href="#">Income</a></li>
+<li><a href="#">Caste</a></li>
+<li><a href="#">Residence</a></li>
+<li><a href="#">EWS</a></li>
+</ul>
+</div>
+
+<div class="box">
+<h3 style="background:#800000;">Downloads</h3>
+<ul>
+<li><a href="#">PDF</a></li>
+<li><a href="#">Notification</a></li>
+<li><a href="#">Form</a></li>
+<li><a href="#">Prospectus</a></li>
+</ul>
+</div>
+
+<div class="box">
+<h3 style="background:#666;">Notice</h3>
+<ul>
+<li><a href="#">Latest Notice</a></li>
+<li><a href="#">Exam Notice</a></li>
+<li><a href="#">Holiday Notice</a></li>
+<li><a href="#">Important Notice</a></li>
+</ul>
+</div>
+
+<div class="box">
+<h3 style="background:#006600;">Contact Us</h3>
+<ul>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Contact</a></li>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Disclaimer</a></li>
+</ul>
+</div>
+
+</div>
+        <hr style="width:80%;">
+        <p>
+            <a href="#" style="color:white; text-decoration:none;">Home</a> |
+            <a href="#" style="color:white; text-decoration:none;">Latest Jobs</a> |
+            <a href="#" style="color:white; text-decoration:none;">Admit Card</a> |
+            <a href="#" style="color:white; text-decoration:none;">Results</a> |
+            <a href="#" style="color:white; text-decoration:none;">Answer Key</a> |
+            <a href="#" style="color:white; text-decoration:none;">Contact Us</a>
+        </p> 
+        <p>
+            <a href="#" style="color:white; text-decoration:none;">Home</a> |
+            <a href="#" style="color:white; text-decoration:none;">Latest Jobs</a> |
+            <a href="#" style="color:white; text-decoration:none;">Admit Card</a> |
+            <a href="#" style="color:white; text-decoration:none;">Results</a> |
+            <a href="#" style="color:white; text-decoration:none;">Answer Key</a> |
+            <a href="#" style="color:white; text-decoration:none;">Contact Us</a>
+        </p>
+        <hr style="width:80%;">
+
+        <p>
+            <a href="#" style="color:white; text-decoration:none;">Home</a> |
+            <a href="#" style="color:white; text-decoration:none;">Latest Jobs</a> |
+            <a href="#" style="color:white; text-decoration:none;">Admit Card</a> |
+            <a href="#" style="color:white; text-decoration:none;">Results</a> |
+            <a href="#" style="color:white; text-decoration:none;">Answer Key</a> |
+            <a href="#" style="color:white; text-decoration:none;">Contact Us</a>
+        </p>
+        <!-- Footer Start -->
+<footer style="background:#002147; color:white; margin-top:20px;">
+
+    <div style="text-align:center; padding:20px;">
+
+        <h2 style="margin:0;">🚔 Bihar Police Job</h2>
+
+        <p>
+            Latest Government Jobs, Admit Card, Results,
+            Answer Key, Syllabus, Admission & Scholarship Updates
+        </p>
+
+        <hr style="width:80%;">
+
+        <p>
+            <a href="#" style="color:white; text-decoration:none;">Home</a> |
+            <a href="#" style="color:white; text-decoration:none;">Latest Jobs</a> |
+            <a href="#" style="color:white; text-decoration:none;">Admit Card</a> |
+            <a href="#" style="color:white; text-decoration:none;">Results</a> |
+            <a href="#" style="color:white; text-decoration:none;">Answer Key</a> |
+            <a href="#" style="color:white; text-decoration:none;">Contact Us</a>
+        </p>
+
+        <p>
+            📧 Email : info@biharpolicejob.com
+        </p>
+
+        <p>
+            📞 Helpline : +91-9876543210
+        </p>
+
+        <p>
+            📍 Bihar, India
+        </p>
+
+        <hr style="width:80%;">
+
+        <p>
+            © 2026 Bihar Police Job | All Rights Reserved
+        </p>
+
+    </div>
+
+</footer>
+<!-- Footer End -->
+
+</body>
+</html>
